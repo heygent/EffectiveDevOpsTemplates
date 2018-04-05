@@ -75,4 +75,4 @@ t.add_output(Output(
     )
 ))
 
-print(t.to_yaml())
+print(t.to_json())
