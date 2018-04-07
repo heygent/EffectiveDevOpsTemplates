@@ -97,7 +97,7 @@ t.add_resource(Role(
     )
 ))
 
-t.add_resource(ec2.Instance(
+t.add_resource(InstanceProfile(
     "InstanceProfile",
     Path="/",
     Roles=[Ref("Role")]
